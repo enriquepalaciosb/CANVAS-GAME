@@ -1,3 +1,5 @@
+/* Following styling from: https://github.com/CodingWith-Adam/snake */
+
 body{
     margin: 0px;
     padding: 0px;
@@ -9,3 +11,5 @@ body{
 canvas{
     box-shadow: black 20px 10px 50px;
 }
+
+/* ---------------------------------------- */

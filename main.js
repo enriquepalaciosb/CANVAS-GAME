@@ -4,6 +4,9 @@ var ctx = canvas.getContext("2d");
 canvas.width = 800;
 canvas.height = 800;
 document.body.appendChild(canvas);
+// --------------------------------------------------------------------
+//Calling audio files somewhere around here
+
 
 // Background image
 var bgReady = false;
@@ -11,7 +14,7 @@ var bgImage = new Image();
 bgImage.onload = function () {
     bgReady = true;
 };
-bgImage.src = "images/background.png";
+bgImage.src = "";
 
 // Hero image
 var heroReady = false;
@@ -27,7 +30,7 @@ var monsterImage = new Image();
 monsterImage.onload = function () {
     monsterReady = true;
 };
-monsterImage.src = "images/monster.png";
+monsterImage.src = "";
 
 // Game objects
 var hero = {
@@ -59,9 +62,6 @@ addEventListener("keyup", function (e) {
     delete keysDown[e.keyCode];
 }, false);
 
-
-
-
 //---------------------------------------------
 
 // Update game objects
@@ -89,7 +89,6 @@ var update = function (modifier) {
         ++monstersCaught;       // keep track of our “score”
         reset();       // start a new cycle
     }
-
 };
 
 // Draw everything in the main render function
@@ -133,6 +132,10 @@ var reset = function () {
     monster.x = 32 + (Math.random() * (canvas.width - 96));
     monster.y = 32 + (Math.random() * (canvas.height - 96));
 };
+
+// --------------------------------------------------------------------
+// gameOver Function
+
 
 // Let's play this game!
 var then = Date.now();
