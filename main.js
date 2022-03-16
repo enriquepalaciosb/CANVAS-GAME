@@ -20,6 +20,8 @@ let chessBoard = [
 //Calling audio files
 const gameOverMusic = new Audio("sounds/M-GameOver.mp3");
 const grabItemSound = new Audio("sounds/SE-GrabItem.mp3");
+const themeSong = new Audio("sounds/M-ThemeSong.mp3");
+const isDeadMusic = new Audio("sounds/SE-IsDead.mp3");
 
 // Background image
 var bgReady = false;
@@ -200,7 +202,9 @@ var update = function (modifier) {
 };
   
 let gameOver = function () {
-  alert("Oof. You bumped into a Starman, game over.");
+  themeSong.pause();
+  isDeadMusic.play();
+  alert("Oof. You bumped into a Starman, game over. Refresh to start over.");
   hasDied = true;
   reset();
 }
@@ -227,6 +231,7 @@ var render = function () {
   ctx.textAlign = "left";
   ctx.textBaseline = "top";
   if (batteriesGrabbed === 7) {
+    themeSong.pause();
     ctx.fillText("CONGRATS, YOU WON!", 32, 32);
   } else {
     ctx.fillText("Batteries grabbed: " + batteriesGrabbed, 32, 32);
@@ -235,6 +240,7 @@ var render = function () {
 
 // The main game loop
 var main = function () {
+  themeSong.play();
   var now = Date.now();
   var delta = now - then;
   update(delta / 1000);
