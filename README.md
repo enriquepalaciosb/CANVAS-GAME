@@ -1,4 +1,4 @@
-# COMING SOON...
+# [ Star Trails ]
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@
 
 ## General Information
 
-- COMING SOON...
+- You, Captain Spiff, are lost in a forsaken sector collecting your ships seven batteries while avoiding enemies.  
 
 ## Technologies Used
 
