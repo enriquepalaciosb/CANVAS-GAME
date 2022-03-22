@@ -12,7 +12,7 @@
 
 - You, Captain Spiff, have crash landed Earth with your Space Jet. You must collect six batteries in 50 seconds in order to rebuild your jet. Alien species are also trying to invade Earth in order to defeat you, the infamous space hunter and rebel, Spaceman Spiff. These species track everyone of your potentially, last moves. Good luck to you, Spiff. 
 
-Captain, Hunter, and Space Runner.   
+~𝙲𝚊𝚙𝚝𝚊𝚒𝚗, 𝙷𝚞𝚗𝚝𝚎𝚛, 𝚊𝚗𝚍 𝚂𝚙𝚊𝚌𝚎 𝚁𝚞𝚗𝚗𝚎𝚛  
 
 ## Technologies Used
 
