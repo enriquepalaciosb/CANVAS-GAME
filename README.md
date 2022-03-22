@@ -10,7 +10,7 @@
 
 ## General Information
 
-- You, Captain Spiff, are lost in a forsaken sector collecting your ships seven batteries while avoiding enemies.  
+- You, Captain Spiff, have crash landed Earth with your Space Jet. You must collect six batteries in 50 seconds in order to rebuild your jet. Alien species are also trying to invade Earth in order to defeat you, the infamous space hunter and rebel, Spaceman Spiff. Captain, Hunter, and Space Runner.   
 
 ## Technologies Used
 
